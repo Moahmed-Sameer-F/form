@@ -1,0 +1,54 @@
+body{
+    background-color: #00DBDE;
+    background-image: linear-gradient(90deg, #00DBDE 0%, #FC00FF 100%);
+    
+}
+h2{
+    font-family: arial;
+    font-size: 35px;
+    margin-top: 120px;
+    margin-left: 40%;
+   
+}
+.form{
+    margin-left: 35%;
+    margin-right: 35%;
+    margin-top: 35px;
+    font-family: arial;
+    font-size: 20px;
+    line-height: 65px;
+    background-color: rgba(0,0,0,0.1);
+    border-radius: 25px;
+ 
+}
+label{
+    margin-left: 30px;
+    font-size: 30px;
+    font-family: arial;
+    font-weight: 300;
+}
+input[type="text"],input[type="password"]{
+    width:80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding: 14px;
+}
+.register-bt{
+   margin-left: 30%;
+   margin-right: 30%;
+    margin-top: 40px;
+    width:35%;
+    margin-bottom: 25px;
+    padding: 10px;
+    border-radius: 15px;
+    background-color: rgb(171, 226, 43);
+    color: white;
+    font-size: 25px;
+    cursor: pointer;
+}
+.register-bt:hover{
+    background-color:  rgb(21, 189, 15); ;
+}
+::placeholder{
+    font-size: 20px;
+}

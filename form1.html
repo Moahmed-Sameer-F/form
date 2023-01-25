@@ -1,0 +1,31 @@
+<html>
+    <head>
+       <link rel="stylesheet" href="style.css">
+        <script src="form-validate.js"></script>
+    </head>
+    <body>
+        <h2>Registration form</h2>
+        <div class="form">
+<form name="form1" method="post" action onsubmit="return valid1()">
+         
+          <label>Enter Name:</label>
+          <input type="text" name="nam" placeholder="Enter name" size="15"><br>
+
+          <label>Enter Email-id:</label>
+          <input type="text" name="mail" placeholder="Enter email-id"><br>
+
+          <label>Enter Contact-no:</label>
+          <input type="text"  name="num" placeholder="Enter mobile number"><br>
+
+          <label>Enter Password:</label>
+          <input type="password"  name="pass" placeholder="Enter password" minlength="6"><br>
+          
+          <label>Re-enter Password:</label>
+          <input type="password" name="repass" placeholder="Re-enter password"><br>
+          
+          <input class="register-bt" type="submit" value="Register">
+         
+      </form>
+        </div>    
+    </body>
+</html>
